@@ -35,7 +35,7 @@ const anotherId = Symbol('123')
 
 console.log( id === anotherId); //false
 
-const bigNumber = 321548978945613245789465132
+const bigNumber = 321548978945613245789465132n  // n at the end denotes BigInt
 
 
 const heros = ["shaktiman", "naagraj", "doga"]
@@ -43,6 +43,8 @@ let myObj ={
     name : "hitesh",
     age: 22
 }
+
+// creating function as a variable
 
 const myFunction = function(){
     console.log("Hello! World...");    

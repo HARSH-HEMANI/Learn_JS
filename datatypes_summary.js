@@ -4,7 +4,14 @@
 they are generally call by value. Here, copy of the actual data is used.
 changes are done in copy
 
-7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
+7 types : 
+String,
+Number,
+Boolean -- true/false, 
+null -- means empty yet non zero, 
+undefined -- means variable is declared but value is nor assigned, 
+Symbol -- to show unique values 
+BigInt -- big values are stored in BigInt
 
 JavaScript is dynamically typed language, that we don't need to explicitly declare the data type of a variable  
 
@@ -12,7 +19,7 @@ JavaScript is dynamically typed language, that we don't need to explicitly decla
 // Reference type / Non-premitive
 
 call by refrence.
-Array, Object, Functions
+Array ([]), Object({}), Functions(){}
 
 */
 

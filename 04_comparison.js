@@ -1,14 +1,14 @@
 // gives true or false
 
-// console.log(2>1);
-// console.log(2 >= 1);
-// console.log(2 > 1);
-// console.log(2 == 1);
-// console.log(2 != 1);
+console.log(2>1);
+console.log(2 >= 1);
+console.log(2 > 1);
+console.log(2 == 1);
+console.log(2 != 1);
 
 
-// console.log("2" > 1);  
-// console.log("02" > 1);
+console.log("2" > 1);  
+console.log("02" > 1);
 // gives true in both cases because JS converts it into a number
 // bad practise -- always compare same datatypes
 
